@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Информације о глумцима</string>
+    <string name="first_activity">Листа глумаца</string>
+
+    <string name="drawer_home">Почетна страна</string>
+    <string name="drawer_home_long">Приказ свих глумаца</string>
+    <string name="drawer_open">Отворите навигациону фиоку</string>
+    <string name="drawer_close">Затворите навигациону фиоку</string>
+
+
+    <string name="fragment_master_create">Направи</string>
+    <string name="fragment_master_update">Ажурирај</string>
+    <string name="fragment_master_delete">Избриши</string>
+
+    <string name="activity_toolbar_title"></string>
+
+
+</resources>

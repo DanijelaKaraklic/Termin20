@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Infromation about actors</string>
+    <string name="first_activity">List of actors</string>
+
+    <string name="drawer_home">Home</string>
+    <string name="drawer_home_long">Show all actors</string>
+    <string name="drawer_open">OpenNavigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+
+
+    <string name="fragment_master_create">Create</string>
+    <string name="fragment_master_update">Update</string>
+    <string name="fragment_master_delete">Delete</string>
+
+
+    <string name="activity_toolbar_title">Tollbar Title</string>
+
+
+</resources>

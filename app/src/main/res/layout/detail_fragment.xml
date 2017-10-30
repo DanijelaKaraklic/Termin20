@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"/>
+
+    <TextView
+    android:id="@+id/tv_actor_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_toRightOf="@id/iv_image"
+    android:padding="10dp"
+    android:layout_alignParentTop="true"
+    />
+
+    <TextView
+        android:id="@+id/tv_actor_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_toRightOf="@id/tv_actor_name"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_actor_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_actor_name"
+        android:layout_toRightOf="@id/iv_image"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_actor_deathday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_actor_birthday"
+        android:layout_toRightOf="@id/iv_image"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/biografija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_actor_birthday"
+        android:textAllCaps="true"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <ListView
+        android:id="@+id/lv_actor_biography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/biografija"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RatingBar
+        android:id="@+id/rb_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_actor_biography"
+        android:layout_alignParentLeft="true"
+        android:numStars="5"
+        />
+
+    <ListView
+        android:id="@+id/lv_actor_list_films"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb_mark"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>
